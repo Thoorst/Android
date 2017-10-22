@@ -24,8 +24,8 @@ public final class DbHelper extends SQLiteOpenHelper{
 
     public static class FeedEntry implements BaseColumns {
         public static final String TABLE_NAME = "entry";
-        public static final String COLUMN_NAME_TITLE = "title";
-        public static final String COLUMN_NAME_SUBTITLE = "subtitle";
+        public static final String COLUMN_NAME = "name";
+        public static final String COLUMN_SURNAME = "surname";
     }
 
     @Override
